@@ -8,6 +8,7 @@ class CalculadoraInterfaz(tk.Tk):
         self.servicio =CalculadoraServicio()
         self.title("calculadora")
         self.geometry("300x400")
+        self.crear_widget()
 
     def realizar_calculo(self):
         try:
