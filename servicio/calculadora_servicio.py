@@ -6,7 +6,8 @@ class CalculadoraServicio:
     
     def calcular(self,operacion,a,b):
         if operacion == 'suma':
-            return self.logica.suma(a,b)
+            return self.logica.suma(a,b)    
+        
         
 
 
